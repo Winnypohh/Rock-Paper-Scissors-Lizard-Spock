@@ -1,1 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:ital,wght@1,500&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Tourney', cursive;
+  line-height: 1.6;
+  background: lightgreen;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  text-align: center;
+}
+/* reset button */
+.restart-btn {
+  display: inline-block;
+  background: lightblue;
+  color: red;
+  padding: 0.4rem 1.3rem;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.restart-btn:hover {
+  background: blue;
+  color: white;
+}
+/*Heading*/
+
+.header {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.header h1 {
+  margin-bottom: 4rem;
+}
+/*Player & comp.Score*/
+.score {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 3rem;
+  color: black;
+}
+
+.player {
+  background: wheat;
+}
+
+.computer {
+  background: orange;
+}
+/*Player choices and Computer choice*/
+
+.choices {
+
+  display: block;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.choice {
+  cursor: pointer;
+}
+
+.choice:hover {
+  color: blue;
+}
+
+#rock {
+  position: center, fixed;
+}
+
+ #spock, #lizard {
+  float: left;
+}
+
+#paper, #scissors {
+  float: right;
+}
+
+#lizard, #scissors {
+  position: center;
+  margin-top: 600px;
+  margin-left: 40px;
+  padding: 10px;
+}
+
+#spock {
+  margin-top: 200px;
+  margin-left: 10px;
+}
+
+#paper {
+  margin-top: 200px;
+  margin-right: 40px;
+}
+
+#scissors {
+  margin-right: 60px;
+}
+/*Result*/
+.result-a {
+  display: contents;
+  padding: 20px;
+  /*margin-bottom: : 120px;*/
+  text-align: center;
+}
+#result {
+  display: none;
+  position: center;
+  background: white;
+  font-size: 20px;
+  margin-left: 300px;
+  margin-right: 340px;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+ .text-win {
+   color: green;
+ }
+.text-lose {
+  color: red;
+}
+
+/*Game Instructions & About game*/
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 40px;
+  margin: 10px;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.nav {
+  padding: 20px;
+  display: block;
+  grid-gap: 6rem;
+}
+/*Screen size*/
+
+@media (max-width: 760px) {
+  .choice {
+    font-size: 180px;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .choice {
+  font-size: 80px;
+
+  }
+.score {
+  float: left;
+  margin-right: 20px;
+}
+}
 

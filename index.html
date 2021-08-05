@@ -3,26 +3,51 @@
 
 <head>
     <meta charset="utf-8">
-    
-    <title>Rock,Paper,Scissors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ca446e0df4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Rock,Paper,Scissors,Lizard,Spock</title>
 </head>
 
 <body>
+    <!--Heading, player&comp score-->
+    <div class="container">
 
-    <h2>Computer Choice:<span id="computer-choice"></span></h2>
-    <h2>User Choice:<span id="user-choice"></span></h2>
-    <h2>Rersult:<span id="result"></span></h2>
-    
-        <button id="rock"><i class="far fa-hand-rock"></i></button>
-        <button id="paper"><i class="far fa-hand-paper"></i></button>
-        <button id="scissors"><i class="far fa-hand-scissors"></i></button>
-        <button id="lizard"><i class="far fa-hand-lizard"></i></button>
-        <button id="spoke"><i class="far fa-hand-spock"></i></button>
-    <script src="https://kit.fontawesome.com/ca446e0df4.js" crossorigin="anonymous"></script>
-    <script src="./js/game.js" charset="utf-8"></script>
+        <header>
+            <h1>Rock Paper Scissors Lizard Spock</h1>
+            <button id="restart" class="restart-btn">Restart Game</button>
+            <div id="score" class="score">
+                <p class="player">Player: 0</p>
+                <p class="computer">Computer: 0</p>
+            </div>
+        </header>
+        <h2 class="header">Make Your Selection</h2>
+        <!--play area-->
+        <div class="choices">
+
+            <i id="spock" class="choice fas fa-hand-spock fa-7x"></i>
+            <i id="rock" class="choice fas fa-hand-rock fa-7x"></i>
+            <i id="paper" class="choice fas fa-hand-paper fa-7x"></i>
+            <i id="scissors" class="choice fas fa-hand-scissors fa-7x"></i>
+            <i id="lizard" class="choice fas fa-hand-lizard fa-7x"></i>
+            <div class="result-a">
+                <div id="result">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/game.js"></script>
 </body>
-<footer>
-    
+<!--Instructions for game-->
+<footer class="footer">
+    <div class="nav">
+        <a href="https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock" target="_blank">How to
+            Play</a>
+        <a href="https://en.wikipedia.org/wiki/Rock_paper_scissors#Additional_weapons" target="_blank">About</a>
+    </div>
 </footer>
 
 
