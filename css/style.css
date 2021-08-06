@@ -7,15 +7,14 @@
 }
 body {
   font-family: 'Tourney', cursive;
-  line-height: 1.6;
   background: lightgreen;
 }
 
 .container {
-  max-width: 1100px;
+  width: 1100px;
   margin: auto;
   overflow: hidden;
-  padding: 80px;
+  padding: 100px;
   text-align: center;
 }
 /* reset button */
@@ -23,7 +22,7 @@ body {
   display: inline-block;
   background: lightblue;
   color: red;
-  padding: 0.4rem 1.3rem;
+  padding: 20px 40px;
   font-size: 20px;
   margin-top: 20px;
   cursor: pointer;
@@ -44,7 +43,7 @@ body {
 }
 
 .header h1 {
-  margin-bottom: 4rem;
+  margin-bottom: 20px;
 }
 /*Player & comp.Score*/
 .scores {
@@ -65,10 +64,10 @@ body {
 
 .choices {
 
-  display: block;
+  display: inline-block;
   grid-template-columns: repeat(5, 1fr);
   
-  margin-top: 3rem;
+  margin-top: 60px;
   text-align: center;
 }
 
@@ -81,7 +80,7 @@ body {
 }
 
 #rock {
-  position: center, fixed;
+  position: center;
 }
 
  #spock, #lizard {
@@ -93,38 +92,39 @@ body {
 }
 
 #lizard, #scissors {
-  margin-top: 600px;
+  margin-top: 400px;
   margin-left: 40px;
   padding: 10px;
 }
 
-#spock {
-  margin-top: 200px;
-  margin-left: 10px;
-}
-
-#paper {
-  margin-top: 200px;
-  margin-right: 40px;
+#spock, #paper{
+  margin-top: 150px;
+  margin-left: 50px;
+  padding: 10px;
 }
 
 #scissors {
-  margin-right: 60px;
+
+  margin-right: 40px;
+}
+
+#lizard {
+  margin-right: 20px;
 }
 /*Result*/
 .result-a {
-  display: block;
-  padding: 80px;
-  margin: 20px;
+  width: 290px;
+  height: 20px;
+  margin: 0 auto;
+  margin-top: 60px;
   text-align: center;
 }
 #result {
-  display: none;
+  
   background: white;
-  width: 45%;
   border: 1px solid black;
-  padding: 40px;
-  margin: 200px;
+  padding: 0 auto;
+  font-size: 14px;
 }
 
  .text-win {
@@ -137,6 +137,7 @@ body {
 /*Game Instructions & About game*/
 
 .footer {
+  
   background-color: #0099cc;
   color: #ffffff;
   text-align: center;
@@ -153,41 +154,16 @@ body {
 }
 /*Screen size*/
 
-@media (max-width: 760px) {
-  .choices {
-    font-size: 20px;
-  }
-  #rock { 
-    margin-left: 20px;
-  }
+@media screen and(max-width: 760px) {
+
+.choices {
+  font-size: 60px;
 }
 
-@media (max-width: 500px) {
-  .choices {
-  font-size: 10px;
- 
-  }
-  .container {
-    max-width: 1000px;
-  }
-#result {
-  font-size: 5px;
-  margin: 100px;
-  
 }
-#rock {
-  margin-left: 5px;
-}
-#scissors {
-  margin-top: 200px;
-}
- #lizard {
-  margin-top: 200px;
- } 
-.scores {
-  float: left;
-  margin-right: 10px;
-  display: block;
-}
+
+@media screen and (max-width: 500px) {
+
+
 }
 
