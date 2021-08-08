@@ -12,7 +12,7 @@
         Website is in full function with screen sizes. 
         </p>
         <a href="https://github.com/Winnypohh/Rock-Paper-Scissors-Lizard-Spock" rel="nofollow">Click here to view Site.</a>
-        <h1>Way this game? In my mind it's the game for everyone age from 5-....! Even people with hearing problems can have a fun!!</h1>
+        <p>Way this game? In my mind it's the game for everyone age from 5-....! Even people with hearing problems can have a fun!!</p>
         <ul>
         <li>There is very seriuse competisons with that game all over the world!!</li>
         </ul>
@@ -23,17 +23,17 @@
         <li>
         <p>Header</p>
         <ul>
-        <img src="./assets/images/header&hamburgermenu.PNG">
+        <img src="">
         <li>Game name and Reset button with score has been displayd in top.</li>
         <li></li>
-        <h1>Game Choices</h1>
-        <img src="./assets/images/main.PNG">
+        <p>Game Choices</p>
+        <img src="">
         <li>There are Player Choises all around Computer Choice and will be displayed is well how Won, Lose or had a Draw in game.</li>
         </ul>
         </li>
         <li>
         <p>Footer</p>
-        <img src="./assets/images/Links.PNG">
+        <img src="">
         <ul>
         <li>Links to help you find game instructions and has all about the game </li>
         </ul>
@@ -48,8 +48,8 @@
         <li>Mobile</li>
         <p>600 pixels wide and down.</p>
         </ul>
-        <h1>Images and Gif's</h1>
-        <p>All images I got from WallpaperAccess.com and Wallpaperwide.com. For gif i used Gfy-cat.com. And other posters and trailers are provided by IMDB.com</p>
+        <h1>Icons</h1>
+        <p>All icons are from Font Awesome.</p>
         <h1>Colors.</h1>
         <p>To keep everything clear and cool I used these colors and design.</p>
         <ul>

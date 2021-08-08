@@ -22,7 +22,7 @@ body {
   display: inline-block;
   background: lightblue;
   color: red;
-  padding: 20px 40px;
+  padding: 10px 30px;
   font-size: 20px;
   margin-top: 20px;
   cursor: pointer;
@@ -64,7 +64,7 @@ body {
 
 .choices {
 
-  display: inline-block;
+  display: block;
   grid-template-columns: repeat(5, 1fr);
   overflow: hidden;
   margin-top: 60px;
@@ -79,10 +79,6 @@ body {
   color: blue;
 }
 
-#rock {
-  position: center;
-}
-
  #spock, #lizard {
   float: left;
 }
@@ -92,20 +88,20 @@ body {
 }
 
 #lizard, #scissors {
-  margin-top: 400px;
+  margin-top: 190px;
   margin-left: 40px;
   padding: 10px;
 }
 
 #spock, #paper{
   margin-top: 150px;
-  margin-left: 50px;
+  margin-left: 20px;
   padding: 10px;
 }
 
 #scissors {
 
-  margin-right: 40px;
+  margin-right: 60px;
 }
 
 #lizard {
@@ -113,16 +109,15 @@ body {
 }
 /*Result*/
 .result-a {
-  width: 290px;
-  height: 20px;
-  margin: 0 auto;
-  margin-top: 60px;
+  display: block;
+  margin: 20px;
+  
 }
 #result {
-  
+
   background: white;
   border: 1px solid black;
-  padding: 0 auto;
+  padding: 20px 40px;
   font-size: 14px;
 }
 
@@ -152,59 +147,59 @@ body {
   grid-gap: 6rem;
 }
 /*Screen size*/
-
-@media screen and(max-width: 760px) {
+@media screen and(max-width: 1200px) {
+ .container {
+   width: 100%;
+ }
+ .choices {
+   font-size: 100px;
+ }
+}
+@media screen and(max-width: 900px) {
   
 .container {
   width: 100%;
-  font-size: small;
+  font-size: 40px;
   float: left;
 }
 .choices {
   font-size: 40px;
 }
+.footer {
+  width: 100%;
+}
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 
 .container {
   width: 100%;
   font-size: 20px;
-  float: left;
-  padding: 10px;
+  padding: inherit;
+
 }
 .scores {
-  font-size: 30px;
+  font-size: 25px;
 }
 .choices {
   font-size: 10px;
-  float: left;
+  padding: 0 auto;
+  
 }
 .result-a {
-  font-size: 2px;
+ 
 }
 #result {
-  height: 170px;
-  margin-top: 200px;
-  margin-bottom: 100px;
-  font-size: 10px;
-  text-align: center;
+ 
+
 }
 #lizard, #scissors {
   margin-top: 200px;
-}
-#scissors {
-  
-  margin-right: 80px;
-}
-#lizard {
-  margin-left: 80px;
+ font-size: 60px;
 }
 #paper {
-  margin-right: 40px;
+  margin-right: 20px;
 }
-#rock {
-  position: relative;
-}
+
 }
 
