@@ -66,7 +66,7 @@ body {
 
   display: inline-block;
   grid-template-columns: repeat(5, 1fr);
-  
+  overflow: hidden;
   margin-top: 60px;
   text-align: center;
 }
@@ -117,7 +117,6 @@ body {
   height: 20px;
   margin: 0 auto;
   margin-top: 60px;
-  text-align: center;
 }
 #result {
   
@@ -155,15 +154,57 @@ body {
 /*Screen size*/
 
 @media screen and(max-width: 760px) {
-
-.choices {
-  font-size: 60px;
+  
+.container {
+  width: 100%;
+  font-size: small;
+  float: left;
 }
-
+.choices {
+  font-size: 40px;
+}
 }
 
 @media screen and (max-width: 500px) {
 
-
+.container {
+  width: 100%;
+  font-size: 20px;
+  float: left;
+  padding: 10px;
+}
+.scores {
+  font-size: 30px;
+}
+.choices {
+  font-size: 10px;
+  float: left;
+}
+.result-a {
+  font-size: 2px;
+}
+#result {
+  height: 170px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  font-size: 10px;
+  text-align: center;
+}
+#lizard, #scissors {
+  margin-top: 200px;
+}
+#scissors {
+  
+  margin-right: 80px;
+}
+#lizard {
+  margin-left: 80px;
+}
+#paper {
+  margin-right: 40px;
+}
+#rock {
+  position: relative;
+}
 }
 
