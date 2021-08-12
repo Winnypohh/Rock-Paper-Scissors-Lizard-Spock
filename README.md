@@ -9,7 +9,7 @@
         <h1>Rock, Paper, Scissors Game with Twist</h1>
         <p>
         This project was developed from my HTML and CSS module as part of my Full Stack Development Course with Code Institute.
-        Website is in full function with screen sizes. Still working some errors beacuse can't get more time. Problem one is color of player and computer wont stay same when you start playing. Problem two is Restart won,t reset computer answer.
+        Website is not full function with screen sizes. Still working some errors.
         </p>
         <a href="https://github.com/Winnypohh/Rock-Paper-Scissors-Lizard-Spock" rel="nofollow">Click here to view Site.</a>
         <p>Way this game? In my mind it's the game for everyone age from 5-....! Even people with hearing problems can have a fun!!</p>
@@ -23,23 +23,23 @@
         <li>
         <p>Header</p>
         <ul>
-        <img src="/workspace/Rock-Paper-Scissors-Lizard-Spock/images/heading score reset.PNG">
+        <img src="Rock-Paper-Scissors-Lizard-Spock/images/heading score reset.PNG">
         <li>Game name and Reset button with score has been displayd in top.</li>
         <li></li>
         <p>Game Choices</p>
-        <img src="/workspace/Rock-Paper-Scissors-Lizard-Spock/images/player and comp.PNG">
+        <img src="Rock-Paper-Scissors-Lizard-Spock/images/player and comp.PNG">
         <li>There are Player Choises all around Computer Choice and will be displayed is well how Won, Lose or had a Draw in game.</li>
         </ul>
         </li>
         <li>
         <p>Footer</p>
-        <img src="/workspace/Rock-Paper-Scissors-Lizard-Spock/images/footer.PNG">
+        <img src="Rock-Paper-Scissors-Lizard-Spock/images/footer.PNG">
         <ul>
         <li>Links to help you find game instructions and has all about the game </li>
         </ul>
         </ul>
         <h1>Wireframes.</h1> 
-        <img src="./assets/images/my-respons.jpg">
+        <img src="Rock-Paper-Scissors-Lizard-Spock/images/screen size.PNG">
         <ul>
         <li>Desktop</li>
         <p>1200pixels wide and down.</p>
@@ -68,7 +68,9 @@
         </li>
         </ul>
         <h1>Testing</h1>
-        <p>For testing, I will use multiple resources, HTML and CSS validators, Chrome Dev Tools Lighthouse tests as well as thorough user testing. Any errors and bugs found during the testing stage will be noted in the Bugs & Fixes section.</p>
+        <p>For testing, I will use multiple resources, HTML and CSS validators, Chrome Dev Tools Lighthouse tests as well as thorough user testing.</p>
+        <h1>Problems and Errors</h1>
+        <p> Problem one is color of player and computer wont stay same when you start playing. Problem two is Restart won,t reset computer answer. Still have issiuse with screen size in mobile and tablet.</p>
         <ul>
         <h1>Tests</h1>
         <li>HTML Validator</li>
