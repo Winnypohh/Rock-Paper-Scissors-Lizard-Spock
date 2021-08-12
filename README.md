@@ -9,7 +9,7 @@
         <h1>Rock, Paper, Scissors Game with Twist</h1>
         <p>
         This project was developed from my HTML and CSS module as part of my Full Stack Development Course with Code Institute.
-        Website is in full function with screen sizes. 
+        Website is in full function with screen sizes. Still working some errors beacuse can't get more time. Problem one is color of player and computer wont stay same when you start playing. Problem two is Restart won,t reset computer answer.
         </p>
         <a href="https://github.com/Winnypohh/Rock-Paper-Scissors-Lizard-Spock" rel="nofollow">Click here to view Site.</a>
         <p>Way this game? In my mind it's the game for everyone age from 5-....! Even people with hearing problems can have a fun!!</p>
@@ -23,17 +23,17 @@
         <li>
         <p>Header</p>
         <ul>
-        <img src="">
+        <img src="/workspace/Rock-Paper-Scissors-Lizard-Spock/images/heading score reset.PNG">
         <li>Game name and Reset button with score has been displayd in top.</li>
         <li></li>
         <p>Game Choices</p>
-        <img src="">
+        <img src="/workspace/Rock-Paper-Scissors-Lizard-Spock/images/player and comp.PNG">
         <li>There are Player Choises all around Computer Choice and will be displayed is well how Won, Lose or had a Draw in game.</li>
         </ul>
         </li>
         <li>
         <p>Footer</p>
-        <img src="">
+        <img src="/workspace/Rock-Paper-Scissors-Lizard-Spock/images/footer.PNG">
         <ul>
         <li>Links to help you find game instructions and has all about the game </li>
         </ul>
@@ -74,7 +74,7 @@
         <li>HTML Validator</li>
         <p>All HTML pages have been tested with the w3c validator and passed with no errors.</p>
         <li>Jigsaw CSS Validator</li>
-        <p>style.css has been passed through the CSS validator and passed with no errors.</p>
+        <p>Style.css has been passed through the CSS validator and passed with no errors.</p>
         <ul>
         <h1>TECHNOLOGIES.</h1>
         <h1>Language.<h1>
